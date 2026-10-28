@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Edicarlos Gonsalves — desenvolvedor web em formação. Projetos com HTML, CSS, JavaScript e Node.js.">
+  <meta name="theme-color" content="#080b0a">
+  <title>Edicarlos Gonsalves | Desenvolvedor Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Edicarlos, início"><span class="brand-mark">E<span>.</span></span><span class="brand-name">edicarlos<span class="accent">.dev</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato" class="nav-contact">Vamos conversar <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> DISPONÍVEL PARA OPORTUNIDADES</p>
+        <h1>Transformando<br>ideias em <span class="gradient-text">experiências</span><br>digitais<span class="accent">.</span></h1>
+        <p class="hero-description">Olá! Sou <strong>Edicarlos Gonsalves</strong>, desenvolvedor web em formação. Gosto de criar interfaces modernas, aprender na prática e transformar ideias em projetos funcionais.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">Explorar projetos <span aria-hidden="true">↓</span></a>
+          <a class="button button-ghost" href="#contato">Entrar em contato <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/edicarlosgonsalves" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <span class="social-separator">/</span>
+          <a href="https://www.linkedin.com/in/edicarlos-gonsalves/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Ilustração decorativa de código">
+        <div class="visual-grid"></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>developer.js</span><span class="window-lock">● online</span></div>
+          <div class="code-content">
+            <p><span class="line-number">01</span><span class="code-purple">const</span> developer = {</p>
+            <p><span class="line-number">02</span>&nbsp;&nbsp;nome: <span class="code-green">'Edicarlos'</span>,</p>
+            <p><span class="line-number">03</span>&nbsp;&nbsp;área: <span class="code-green">'Desenvolvimento Web'</span>,</p>
+            <p><span class="line-number">04</span>&nbsp;&nbsp;skills: [</p>
+            <p><span class="line-number">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-orange">'HTML'</span>, <span class="code-orange">'CSS'</span>,</p>
+            <p><span class="line-number">06</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-orange">'JavaScript'</span></p>
+            <p><span class="line-number">07</span>&nbsp;&nbsp;],</p>
+            <p><span class="line-number">08</span>&nbsp;&nbsp;aprendendo: <span class="code-green">'sempre'</span></p>
+            <p><span class="line-number">09</span>};</p>
+            <p class="code-comment"><span class="line-number">10</span>// construindo o próximo projeto...</p>
+            <p><span class="line-number">11</span><span class="code-purple">return</span> <span class="cursor-block">_</span></p>
+          </div>
+        </div>
+        <div class="floating-tag tag-top"><span>✳</span> Criatividade</div>
+        <div class="floating-tag tag-bottom"><span class="tag-pulse"></span> Sempre aprendendo</div>
+        <div class="visual-glow"></div>
+      </div>
+      <a class="scroll-hint" href="#sobre"><span class="scroll-line"></span> ROLE PARA DESCOBRIR</a>
+    </section>
+
+    <section class="section about-section" id="sobre">
+      <div class="container section-grid">
+        <div class="section-heading">
+          <p class="eyebrow">01 / QUEM SOU</p>
+          <h2>Curioso por natureza.<br><span class="muted-heading">Desenvolvedor por escolha.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>Estou construindo minha jornada em desenvolvimento web por meio de estudos e projetos práticos. Curto aprender como as coisas funcionam, resolver problemas e melhorar cada detalhe de uma experiência digital.</p>
+          <p>Meu foco é evoluir no front-end e ampliar meus conhecimentos de back-end, criando projetos cada vez mais completos e úteis.</p>
+          <div class="about-facts">
+            <div><span class="fact-symbol">⌘</span><span><strong>Aprendizado prático</strong><small>Projetos para aprender fazendo</small></span></div>
+            <div><span class="fact-symbol">↗</span><span><strong>Em evolução constante</strong><small>Novas tecnologias e desafios</small></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="habilidades">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / FERRAMENTAS</p>
+          <h2>Tecnologias que uso<br><span class="muted-heading">e estou aprendendo.</span></h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon html-icon">5</div><h3>HTML5</h3><p>Estrutura semântica e acessível para páginas web.</p><span class="skill-level">ESTUDANDO E PRATICANDO</span></article>
+          <article class="skill-card"><div class="skill-icon css-icon">✳</div><h3>CSS3</h3><p>Layouts responsivos, estilos, animações e interfaces.</p><span class="skill-level">ESTUDANDO E PRATICANDO</span></article>
+          <article class="skill-card"><div class="skill-icon js-icon">JS</div><h3>JavaScript</h3><p>Interatividade, eventos e lógica no navegador.</p><span class="skill-level">ESTUDANDO E PRATICANDO</span></article>
+          <article class="skill-card"><div class="skill-icon node-icon">⬡</div><h3>Node.js</h3><p>Primeiros passos com JavaScript no back-end.</p><span class="skill-level">EM APRENDIZADO</span></article>
+          <article class="skill-card"><div class="skill-icon git-icon">⑂</div><h3>Git & GitHub</h3><p>Versionamento e organização de projetos.</p><span class="skill-level">EM APRENDIZADO</span></article>
+          <article class="skill-card"><div class="skill-icon responsive-icon">▣</div><h3>Design responsivo</h3><p>Experiências adaptadas a celular, tablet e desktop.</p><span class="skill-level">PRATICANDO</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projetos">
+      <div class="container">
+        <div class="projects-top">
+          <div class="section-heading">
+            <p class="eyebrow">03 / TRABALHOS SELECIONADOS</p>
+            <h2>Projetos em <span class="gradient-text">construção.</span></h2>
+          </div>
+          <p class="projects-intro">Cada projeto é uma oportunidade de aprender algo novo e transformar conhecimento em prática.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-preview nike-preview">
+              <div class="preview-top"><span class="preview-label">PROJETO 01</span><span class="preview-arrow">↗</span></div>
+              <div class="nike-art">
+                <span class="nike-watermark">NIKE</span>
+                <div class="sneaker-shape" aria-hidden="true"><span></span></div>
+                <div class="preview-caption">AIR ZOOM / PRODUCT PAGE</div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>FRONT-END</span><span class="project-status"><i></i> EM DESENVOLVIMENTO</span></div>
+              <h3>Nike Store</h3>
+              <p>Uma página de produto inspirada em lojas esportivas, com troca de cores, seleção de tamanho e carrinho de compras em evolução.</p>
+              <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js (planejado)</span></div>
+              <div class="project-links"><a href="https://github.com/edicarlosgonsalves" target="_blank" rel="noreferrer" class="text-link" id="nikeCodeLink">Ver código <span>↗</span></a><a href="#contato" class="text-link">Ver detalhes <span>↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview future-preview future-one">
+              <span class="preview-label">PRÓXIMO DESAFIO</span>
+              <div class="future-icon">☁</div>
+              <div class="future-lines"><i></i><i></i><i></i></div>
+              <span class="future-name">WEATHER APP</span>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>IDEIA DE PROJETO</span><span class="project-status status-planned"><i></i> PLANEJADO</span></div>
+              <h3>Weather App</h3>
+              <p>Aplicativo de clima para praticar consumo de APIs, tratamento de dados e estados de interface.</p>
+              <div class="tech-tags"><span>JavaScript</span><span>API</span><span>CSS</span></div>
+              <a href="https://github.com/edicarlosgonsalves" target="_blank" rel="noreferrer" class="text-link">Meu GitHub <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview future-preview future-two">
+              <span class="preview-label">ESPAÇO RESERVADO</span>
+              <div class="task-ui"><div class="task-check">✓</div><div><i></i><i></i></div><span>+ NOVA TAREFA</span></div>
+              <span class="future-name">TASK MANAGER</span>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>IDEIA DE PROJETO</span><span class="project-status status-planned"><i></i> PLANEJADO</span></div>
+              <h3>Organizador de tarefas</h3>
+              <p>Uma aplicação para praticar manipulação do DOM, formulários e armazenamento local.</p>
+              <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <a href="https://github.com/edicarlosgonsalves" target="_blank" rel="noreferrer" class="text-link">Meu GitHub <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+        <p class="projects-note"><span>✳</span> Os projetos marcados como planejados são ideias para estudos futuros, não aplicações já publicadas.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container contact-panel">
+        <div class="contact-decoration" aria-hidden="true">&lt;/&gt;</div>
+        <p class="eyebrow">04 / CONTATO</p>
+        <h2>Tem uma ideia?<br><span class="gradient-text">Vamos conversar.</span></h2>
+        <p class="contact-copy">Estou aberto a trocar experiências, colaborar em projetos e conhecer oportunidades de estágio ou desenvolvimento web.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://github.com/edicarlosgonsalves" target="_blank" rel="noreferrer">Meu GitHub <span>↗</span></a>
+          <a class="button button-ghost" href="https://www.linkedin.com/in/edicarlos-gonsalves/" target="_blank" rel="noreferrer">Meu LinkedIn <span>↗</span></a>
+          <button class="button button-ghost" id="copyContact" type="button">Copiar e-mail <span>⧉</span></button>
+        </div>
+        <p class="contact-hint" id="contactHint" role="status">Adicione teu e-mail no arquivo script.js para ativar o botão de contato.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#inicio"><span class="brand-mark">E<span>.</span></span><span class="brand-name">edicarlos<span class="accent">.dev</span></span></a>
+      <p>Feito com <span class="accent">♥</span>, código e vontade de aprender.</p>
+      <a href="#inicio" class="back-top">Voltar ao topo ↑</a>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Edicarlos Gonsalves</span><span>HTML · CSS · JavaScript</span></div>
+  </footer>
+</body>
+</html>
